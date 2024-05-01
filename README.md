@@ -20,7 +20,7 @@ This indicates that there're meaningful differences in the datasets (e.g. the te
 </ul>
 
 <h2>Introduction</h2>
-This is my first hands-on beginner project attempting to write a code for a neural network recognizing handwritten digits.<br> Through the past months, I've been getting more and more interested in machine learning and how neural networks work, so I decided it was about time to try it out myself.<br><br>
+This is my first hands-on beginner project attempting to write a code for a basic neural network recognizing handwritten digits.<br> Through the past months, I've been getting more and more interested in machine learning and how neural networks work, so I decided it was about time to try it out myself.<br><br>
 I started by watching a <a href="https://www.youtube.com/watch?v=w8yWXqWQYmU&t=1667s">YouTube video</a> to get familiar with the math and code that I needed. Then I opened my JupyterLab notebook, imported the training data, preprocessed it, splitting the data into a training and validation set, I shuffeled it and finally normalized the pixel values so they would be between 0 and 1. After that followed the forward and backward propagation, optimization of the parameters and finally I applied the gradient descent algorithm to make predictions.
 At the end I imported a different test data, letting it run through the model once again to see how well my neural network was doing giving me a new accuracy of predictions.<br>
 Additionally, I added a ton of comments to each step in order to help me (and maybe other beginners) understand what each funtion does, so I wouldn't get confused.<br> <br>
