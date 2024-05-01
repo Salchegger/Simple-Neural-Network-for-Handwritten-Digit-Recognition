@@ -5,10 +5,10 @@ The training model utilizes a simple architecture with ReLU and softmax activati
 
 
 ![image](https://github.com/Salchegger/Simple-Neural-Network-for-Handwritten-Digit-Recognition/assets/167821529/8a15e151-f150-46d4-b5f6-b5a2392946fe)
-<br>
+<br><br>
 
-<h1>Key Finding: The accuracy of the handwritten digit prediction on the training data (83.75%) is lower than on the data tested (84.75%)!
-This indicates that there're meaningful differences in the datasets (e.g. the test set is probably less diverse and therefore easier for the model to predict).</h1>
+<h2>Key Finding: The accuracy of the handwritten digit prediction on the training data (83.75%) is lower than on the data tested (84.75%)!
+This indicates that there're meaningful differences in the datasets (e.g. the test set is probably less diverse and therefore easier for the model to predict).</h2><br>
 
 <h2>Table of Contents</h2>
 <ul>
