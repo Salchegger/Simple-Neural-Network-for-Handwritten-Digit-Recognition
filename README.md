@@ -25,7 +25,7 @@ I started by watching a <a href="https://www.youtube.com/watch?v=w8yWXqWQYmU&t=1
 At the end I imported a different test data, letting it run through the model once again to see how well my neural network was doing giving me a new accuracy of predictions.<br>
 Additionally, I added a ton of comments to each step in order to help me (and maybe other beginners) understand what each funtion does, so I wouldn't get confused.<br> <br>
 
-Unfortunately, the initial code I used from the video, presented some error issues (even after making sure that I corrected the ones from the video itself). This made it definitely more complicated than expected but very realistic as I understand now that writing a code is not always as easy as it might seem. For this section I partially used ChatGPT 3.5 to help me solve what's wrong, making my code run smoothly after hours of work.<br> <br>
+Unfortunately, the initial code I used from the video, presented some error issues (even after making sure that I corrected the ones from the video itself). This made it definitely more complicated than expected but very realistic as I understand now that writing a code is not always as easy as it might seem. For this section (cell [15]; I forgot to mention this in my kernel) I partially used ChatGPT 3.5 to help me solve what's wrong, making my code run smoothly after hours of work.<br> <br>
 I'm very happy with the outcome and hope by uploading this file, I can help viewers with understanding how this neural network runs and inspire others to try it out themselves!<br> 
 
  
