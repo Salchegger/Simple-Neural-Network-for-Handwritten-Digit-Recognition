@@ -20,13 +20,13 @@ This indicates that there're meaningful differences in the datasets (e.g. the te
 </ul>
 
 <h2>Introduction</h2>
-Have you ever wondered how machines can read hand-drawn digits super-fast and pretty accurately?<br>
-Well me neither, till like a week ago when my boyfriend explained some math to me and I looked at both of our handwritten numbers and started to think about how well or even if a machine could read both of our handwritings correctly. - His' obviously being worse than mine! ;) <br>
-Somehow, I couldn't stop thinking about it and I asked my boyfriend (who is a data scientist) if there are any easy beginner-friendly machine learning projects that I could wrap my head around to understand how a computer can be trained to recognize different digits. <br>
-Of course, "easy" was not the best word to describe a first-ever attempt to write a code like that, but still being stubborn as I am sometimes, I tried to solve the suggested problem of creating a neural network to predict hand-drawn digits.<br><br>
-I started by watching a <a href="https://www.youtube.com/watch?v=w8yWXqWQYmU&t=1667s">YouTube video</a> to get familiar with the math and code that I needed. Then it was time to open my JupyterLab notebook and begin writing down the code trying to understand how each line of code and function interferes with another, adding a ton of sidenotes so I wouldn't get confused. Unfortunately, the initial code presented some error issues (even after making sure that I corrected the ones from the video itself). This made it definitely more complicated than expected but very realistic as I understand now that writing a code is not always as easy as it might seem. <br>
-After several hours of work tho, I was able to debug the code and suddenly it ran smoothly, making me very happy and proud of myself.
-I hope by uploading this file, I can help others to try out their first projects in machine learning and have fun with coding as well!<br> 
+This is my first hands-on beginner project attempting to write a code for a neural network recognizing handwritten digits.<br> Through the past months, I've been getting more and more interested in machine learning and how neural networks work, so I decided it was about time to try it out myself.<br><br>
+I started by watching a <a href="https://www.youtube.com/watch?v=w8yWXqWQYmU&t=1667s">YouTube video</a> to get familiar with the math and code that I needed. Then I opened my JupyterLab notebook, imported the training data, preprocessed it, splitting the data into a training and validation set, I shuffeled it and finally normalized the pixel values so they would be between 0 and 1. After that followed the forward and backward propagation, optimization of the parameters and finally I applied the gradient descent algorithm to make predictions.
+At the end I imported a different test data, letting it run through the model once again to see how well my neural network was doing giving me a new accuracy of predictions.<br>
+Additionally, I added a ton of comments to each step in order to help me (and maybe other beginners) understand what each funtion does, so I wouldn't get confused.<br> <br>
+
+Unfortunately, the initial code I used from the video, presented some error issues (even after making sure that I corrected the ones from the video itself). This made it definitely more complicated than expected but very realistic as I understand now that writing a code is not always as easy as it might seem. For this section I partially used ChatGPT 3.5 to help me solve what's wrong, making my code run smoothly after hours of work.<br> <br>
+I'm very happy with the outcome and hope by uploading this file, I can help viewers with understanding how this neural network runs and inspire others to try it out themselves!<br> 
 
  
 <h2>Data Source</h2>
