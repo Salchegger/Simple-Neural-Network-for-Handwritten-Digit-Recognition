@@ -46,7 +46,7 @@ The input layer consists of 784 neurons corresponding to each pixel in the image
 
 <ol>
   <li><strong>Rectified Linear Unit</strong></li>
-    The ReLU activation function is used in the hidden layers to introduce non-linearity to the network by replacing negative values with zero, effectively removing linearity constraints     and enabling the network to capture complex patterns in the data more effectively.<br><br>
+    The ReLU activation function is used in the hidden layers to introduce non-linearity to the network by replacing negative values with zero. This helps the network capture complex patterns in the data more effectively by removing linearity constraints.<br><br>
   <li><strong>Softmax</strong></li>
   The softmax function transforms the raw output values from the previous layer into a probability distribution over multiple classes. This allows us to interpret the output as the         likelihood of each class being the correct prediction. Softmax ensures that the sum of all probabilities adds up to 1, making it suitable for multi-class classification tasks, like       digit recognition.
 </ol>
